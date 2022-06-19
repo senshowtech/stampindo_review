@@ -1,3 +1,6 @@
+# Ada dua jenis operasi dalam class yaitu attribute references and instantiation
+
+# Attribute references
 class MyClass:
     variable = "blah"
 
@@ -43,3 +46,20 @@ car2.value = 10000.00
 
 print(car1.description())
 print(car2.description())
+
+# instance
+
+
+class Dog:
+
+    kind = 'canine'
+
+    def __init__(self, name):
+        self.name = name
+
+
+# panggil variable kind di Class Dog
+d = Dog('Fido')
+print(d.kind)
+# panggil name di instance class Dog
+print(d.name)
