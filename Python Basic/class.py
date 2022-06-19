@@ -18,7 +18,7 @@ myobjectx.function()
 
 class Vehicle:
     name = ""
-    kind = "car"
+    kind = ""
     color = ""
     value = 100.00
 
@@ -63,3 +63,16 @@ d = Dog('Fido')
 print(d.kind)
 # panggil name di instance class Dog
 print(d.name)
+
+# class method
+
+
+class Person:
+    age = 25
+
+    def printAge(cls):
+        print('The age is:', cls.age)
+
+
+Person.printAge = classmethod(Person.printAge)
+Person.printAge()
