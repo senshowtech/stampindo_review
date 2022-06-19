@@ -1,9 +1,9 @@
-# ambil value dengan loop biasa
+# ambil value array dengan loop biasa
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 for fruit in fruits:
     print(fruit)
 
-# ambil value dengan loop List Comprehensions
+# ambil value array dengan loop List Comprehensions
 fruit_value = [fruit for fruit in fruits]
 print(fruit_value)
 
@@ -15,10 +15,12 @@ matrix = [
 ]
 print([[row[i] for row in matrix] for i in range(4)])
 
-#########################################################################################
 
 # list methods
-
+# split
+# ubah string menjadi array
+list = "a,b,c,d,e,f,g,h"
+print(list.split(","))
 # append
 # sisipkan data ke belakang array di js push
 list = [1, 2, 3, 4]
