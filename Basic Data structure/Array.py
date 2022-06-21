@@ -17,10 +17,6 @@ print([[row[i] for row in matrix] for i in range(4)])
 
 
 # list methods
-# split
-# ubah string menjadi array
-list = "a,b,c,d,e,f,g,h"
-print(list.split(","))
 # append
 # sisipkan data ke belakang array di js push
 list = [1, 2, 3, 4]
