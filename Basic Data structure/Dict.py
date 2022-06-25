@@ -17,3 +17,15 @@ print(list(tel.keys()))
 ['irv', 'guido', 'jack']
 print(sorted(tel.keys()))
 print('guido' in tel)
+
+dict1 = {"cek": 1, "cek2": 2}
+dict2 = {"cek3": 3, "cek4": 4}
+dict1.update(dict2)
+print(dict1)
+# ** memasukkan data varibel ke variable lain
+{'cek3': 3, 'cec4': 4, **dict1}
+
+# ambil value jika ini error jika tidak ada di dict
+print(dict1["cek"])
+# default value second parameter
+print(dict1.get("cek"))

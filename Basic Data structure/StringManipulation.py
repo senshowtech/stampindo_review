@@ -27,3 +27,7 @@ print(desc_str)
 # split
 my_phrase = "let's go to the beach"
 print(my_phrase.split(" "))
+
+val = 1
+testfstring = f"{val} cek"
+print(testfstring)

@@ -59,3 +59,7 @@ stack.pop()
 stack.pop()
 stack.pop()
 print(stack)
+
+
+p = ['P', 'y', 't', 'h', 'o', 'n']
+print(p[0:2])

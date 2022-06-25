@@ -70,9 +70,10 @@ print(d.name)
 class Person:
     age = 25
 
+    @classmethod
     def printAge(cls):
         print('The age is:', cls.age)
 
 
-Person.printAge = classmethod(Person.printAge)
 Person.printAge()
+print(Person.age)
